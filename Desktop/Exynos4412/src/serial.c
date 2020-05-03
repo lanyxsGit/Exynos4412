@@ -10,6 +10,8 @@
 #include <errno.h>
 #include "../include/serial.h"
 
+
+
 int speed_arr[] = { B38400, B19200, B9600, B4800, B2400, B1200, B300,
                     B38400, B19200, B9600, B4800, B2400, B1200, B300,
                   };
