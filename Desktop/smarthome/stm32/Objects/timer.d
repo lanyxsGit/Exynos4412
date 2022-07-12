@@ -1,0 +1,12 @@
+.\objects\timer.o: HARDWARE\TIMER\timer.c
+.\objects\timer.o: HARDWARE\TIMER\timer.h
+.\objects\timer.o: .\SYSTEM\sys\sys.h
+.\objects\timer.o: .\SYSTEM\sys\stm32f10x.h
+.\objects\timer.o: .\SYSTEM\sys\core_cm3.h
+.\objects\timer.o: D:\KEIL_M0\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timer.o: .\SYSTEM\sys\system_stm32f10x.h
+.\objects\timer.o: .\SYSTEM\usart\usart.h
+.\objects\timer.o: D:\KEIL_M0\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\timer.o: .\HARDWARE\L298N\l298n.h
+.\objects\timer.o: .\HARDWARE\EXTI\exti.h
+.\objects\timer.o: .\HARDWARE\LED\led.h

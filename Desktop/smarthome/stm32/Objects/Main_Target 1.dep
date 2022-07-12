@@ -1,0 +1,73 @@
+Dependencies for Project 'Main', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x49D96948)(--cpu Cortex-M3 -g --apcs=interwork -I D:\gitClone\Exynos4412\Desktop\smarthome\stm32\RTE-I D:\KEIL_M0\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\KEIL_M0\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (.\main.c)(0x5EE9AB6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\SYSTEM\delay -I.\SYSTEM\sys -I.\HARDWARE\EXTI -I.\HARDWARE\L298N -I.\HARDWARE\LED -I.\HARDWARE\TIMER -I.\SYSTEM\usart-I D:\gitClone\Exynos4412\Desktop\smarthome\stm32\RTE-I D:\KEIL_M0\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\KEIL_M0\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\SYSTEM\sys\sys.h)(0x5E549E9A)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5E357D8B)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\KEIL_M0\ARM\ARMCC\include\stdint.h)(0x5E4E1044)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5E4D1A7B)
+I (.\HARDWARE\L298N\l298n.h)(0x5EE8B62B)
+I (.\HARDWARE\EXTI\exti.h)(0x5EE8EA47)
+I (.\HARDWARE\LED\led.h)(0x5EE896C7)
+I (.\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (D:\KEIL_M0\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\HARDWARE\TIMER\timer.h)(0x5EE8E528)
+F (.\SYSTEM\delay\delay.c)(0x5E4D1A87)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\SYSTEM\delay -I.\SYSTEM\sys -I.\HARDWARE\EXTI -I.\HARDWARE\L298N -I.\HARDWARE\LED -I.\HARDWARE\TIMER -I.\SYSTEM\usart-I D:\gitClone\Exynos4412\Desktop\smarthome\stm32\RTE-I D:\KEIL_M0\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\KEIL_M0\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD-o .\objects\delay_1.o --omf_browse .\objects\delay_1.crf --depend .\objects\delay_1.d)
+I (SYSTEM\delay\delay.h)(0x5E4D1A7B)
+I (.\SYSTEM\sys\sys.h)(0x5E549E9A)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5E357D8B)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\KEIL_M0\ARM\ARMCC\include\stdint.h)(0x5E4E1044)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\SYSTEM\sys\sys.c)(0x5E54A069)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\SYSTEM\delay -I.\SYSTEM\sys -I.\HARDWARE\EXTI -I.\HARDWARE\L298N -I.\HARDWARE\LED -I.\HARDWARE\TIMER -I.\SYSTEM\usart-I D:\gitClone\Exynos4412\Desktop\smarthome\stm32\RTE-I D:\KEIL_M0\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\KEIL_M0\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (SYSTEM\sys\sys.h)(0x5E549E9A)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5E357D8B)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\KEIL_M0\ARM\ARMCC\include\stdint.h)(0x5E4E1044)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\SYSTEM\usart\usart.c)(0x550EB9F1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\SYSTEM\delay -I.\SYSTEM\sys -I.\HARDWARE\EXTI -I.\HARDWARE\L298N -I.\HARDWARE\LED -I.\HARDWARE\TIMER -I.\SYSTEM\usart-I D:\gitClone\Exynos4412\Desktop\smarthome\stm32\RTE-I D:\KEIL_M0\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\KEIL_M0\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (SYSTEM\usart\usart.h)(0x550EB9F1)
+I (.\SYSTEM\sys\sys.h)(0x5E549E9A)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5E357D8B)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\KEIL_M0\ARM\ARMCC\include\stdint.h)(0x5E4E1044)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\KEIL_M0\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (.\HARDWARE\EXTI\exti.c)(0x5EE9ABB7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\SYSTEM\delay -I.\SYSTEM\sys -I.\HARDWARE\EXTI -I.\HARDWARE\L298N -I.\HARDWARE\LED -I.\HARDWARE\TIMER -I.\SYSTEM\usart-I D:\gitClone\Exynos4412\Desktop\smarthome\stm32\RTE-I D:\KEIL_M0\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\KEIL_M0\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD-o .\objects\exti.o --omf_browse .\objects\exti.crf --depend .\objects\exti.d)
+I (HARDWARE\EXTI\exti.h)(0x5EE8EA47)
+I (.\SYSTEM\sys\sys.h)(0x5E549E9A)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5E357D8B)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\KEIL_M0\ARM\ARMCC\include\stdint.h)(0x5E4E1044)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5E4D1A7B)
+I (.\HARDWARE\LED\led.h)(0x5EE896C7)
+I (.\HARDWARE\L298N\l298n.h)(0x5EE8B62B)
+F (.\HARDWARE\L298N\l298n.c)(0x5EE9ABEF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\SYSTEM\delay -I.\SYSTEM\sys -I.\HARDWARE\EXTI -I.\HARDWARE\L298N -I.\HARDWARE\LED -I.\HARDWARE\TIMER -I.\SYSTEM\usart-I D:\gitClone\Exynos4412\Desktop\smarthome\stm32\RTE-I D:\KEIL_M0\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\KEIL_M0\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD-o .\objects\l298n.o --omf_browse .\objects\l298n.crf --depend .\objects\l298n.d)
+I (HARDWARE\L298N\l298n.h)(0x5EE8B62B)
+I (.\SYSTEM\sys\sys.h)(0x5E549E9A)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5E357D8B)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\KEIL_M0\ARM\ARMCC\include\stdint.h)(0x5E4E1044)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\delay\delay.h)(0x5E4D1A7B)
+F (.\HARDWARE\LED\led.c)(0x5EE9AC81)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\SYSTEM\delay -I.\SYSTEM\sys -I.\HARDWARE\EXTI -I.\HARDWARE\L298N -I.\HARDWARE\LED -I.\HARDWARE\TIMER -I.\SYSTEM\usart-I D:\gitClone\Exynos4412\Desktop\smarthome\stm32\RTE-I D:\KEIL_M0\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\KEIL_M0\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (HARDWARE\LED\led.h)(0x5EE896C7)
+I (.\SYSTEM\sys\sys.h)(0x5E549E9A)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5E357D8B)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\KEIL_M0\ARM\ARMCC\include\stdint.h)(0x5E4E1044)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\HARDWARE\TIMER\timer.c)(0x5EE9AC7C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\SYSTEM\delay -I.\SYSTEM\sys -I.\HARDWARE\EXTI -I.\HARDWARE\L298N -I.\HARDWARE\LED -I.\HARDWARE\TIMER -I.\SYSTEM\usart-I D:\gitClone\Exynos4412\Desktop\smarthome\stm32\RTE-I D:\KEIL_M0\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\KEIL_M0\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (HARDWARE\TIMER\timer.h)(0x5EE8E528)
+I (.\SYSTEM\sys\sys.h)(0x5E549E9A)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5E357D8B)
+I (.\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\KEIL_M0\ARM\ARMCC\include\stdint.h)(0x5E4E1044)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (D:\KEIL_M0\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\HARDWARE\L298N\l298n.h)(0x5EE8B62B)
+I (.\HARDWARE\EXTI\exti.h)(0x5EE8EA47)
+I (.\HARDWARE\LED\led.h)(0x5EE896C7)

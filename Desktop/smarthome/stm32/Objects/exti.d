@@ -1,0 +1,10 @@
+.\objects\exti.o: HARDWARE\EXTI\exti.c
+.\objects\exti.o: HARDWARE\EXTI\exti.h
+.\objects\exti.o: .\SYSTEM\sys\sys.h
+.\objects\exti.o: .\SYSTEM\sys\stm32f10x.h
+.\objects\exti.o: .\SYSTEM\sys\core_cm3.h
+.\objects\exti.o: D:\KEIL_M0\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\exti.o: .\SYSTEM\sys\system_stm32f10x.h
+.\objects\exti.o: .\SYSTEM\delay\delay.h
+.\objects\exti.o: .\HARDWARE\LED\led.h
+.\objects\exti.o: .\HARDWARE\L298N\l298n.h
